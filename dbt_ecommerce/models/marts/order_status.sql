@@ -10,5 +10,5 @@ WITH base AS (
 )
 
 SELECT *,
-    CASE WHEN order_status = 'Shipped' and delivery_hours > 48 THEN 'Delayed' ELSE order_status END AS final_status
+    CASE WHEN order_status = 'Shipped' AND delivery_hours > 48 THEN 'Delayed' ELSE order_status END AS final_status
 FROM base
