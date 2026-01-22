@@ -1,0 +1,14 @@
+ecommerce:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: WCAYPEB-PL20954
+      user: SIYOLISESOLANI
+      password: SIYOLISE19970911
+      role: ACCOUNTADMIN
+      database: ecommerce_db
+      warehouse: COMPUTE_WH
+      schema: analytics
+      threads: 1
+      client_sessions_keep_alive: False
