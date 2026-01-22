@@ -1,0 +1,8 @@
+snowflake:
+  user: SIYOLISESOLANI
+  password: Siyolise19970911
+  account: WCAYPEB-PL20954
+  warehouse: COMPUTE_WH
+  database: ecommerce_db
+  schema: ANALYTICS
+  role: ACCOUNTADMIN
